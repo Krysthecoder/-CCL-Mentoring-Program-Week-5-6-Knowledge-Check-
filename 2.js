@@ -39,7 +39,7 @@ const quarterOfOne = (month) => {
 
 //  Third solution
 
-const quarterOf = (month) => {
+const quarterOfThree = (month) => {
 
     let monthsGroup = [[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]]
 
