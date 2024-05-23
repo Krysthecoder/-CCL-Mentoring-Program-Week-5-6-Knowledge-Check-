@@ -5,12 +5,12 @@ function sumOfIntegersInString(s) {
     s = s.replaceAll(']', " ");
     s = s.replaceAll(/[a-zA-Z!@#[\$:%\§^;\&,*\)?\(+=._-]/g, " ").split(' ');
     if (s.join('') === "") { return 0 }
-    let test = [];
+    let numArr = [];
     for (let i = 0; i < s.length; i++) {
         console.log(s[i])
         if ((s[i] * 1)) {
-            test.push(s[i] * 1)
+            numArr.push(s[i] * 1)
         }
     }
-    return test.reduce((accum, currentVal) => accum + currentVal);
+    return numArr.reduce((accum, currentVal) => accum + currentVal);
 }
