@@ -10,7 +10,7 @@ function multiply(a, b) {
 //  TS Version
 
 export function multiply(a: number, b: number): number {
-    return a + b;
+    return a * b;
 }
 
 //  PHP Version
